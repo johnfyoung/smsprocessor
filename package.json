@@ -1,0 +1,21 @@
+{
+  "name": "smsparse",
+  "version": "1.0.0",
+  "description": "Parses xml file of sms and mms texts and stores in db",
+  "main": "index.js",
+  "author": "John Young",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-node src",
+    "build": "babel src -d lib"
+  },
+  "dependencies": {
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5"
+  }
+}
